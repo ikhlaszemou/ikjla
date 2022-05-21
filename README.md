@@ -44,12 +44,6 @@ Install all packages in the package.json file
 npm i
 ```
 
-```Bash
-REACT_APP_GOOGLE_MAP_API_KEY=*************************
-REACT_APP_RPC=http://127.0.0.1:8545/
-
-```
-
 Run the app
 
 ```Bash
