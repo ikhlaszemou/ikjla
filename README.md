@@ -5,7 +5,7 @@ Prerequisites : `npm, git`
 Clone the repository
 
 ```Bash
-git clone https://github.com/rishav4101/eth-supplychain-dapp.git && cd eth-supplychain-dapp
+git clone https://github.com/MouradHIDOUSSI/PRODUCT-SUPPLYCHAIN-ETH.git && cd PRODUCT-SUPPLYCHAIN-ETH
 ```
 
 Install dependencies
