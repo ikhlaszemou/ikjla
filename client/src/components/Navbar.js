@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
+    backgroundColor: '#90a4ae',
     transition: theme.transitions.create(["margin", "width"], {
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
@@ -48,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    backgroundColor: "#09126d",
+    backgroundColor: "#178ca4",
     color: "#fff",
   },
   drawerHeader: {
@@ -119,11 +120,11 @@ export default function PersistentDrawerLeft({
             style={{ display: "flex", alignItems: "center" }}
           >
             <img
-              alt="."
-              src="/logo.png"
+              alt="img"
+              src="/Logo2.png"
               style={{ height: "45px", width: "auto" }}
             />
-            &nbsp;Product Supplychain System
+            &nbsp;OriginTrack
           </Typography>
         </Toolbar>
       </AppBar>
@@ -168,7 +169,8 @@ export default function PersistentDrawerLeft({
             navItems.map((item) => (
               <Link
                 to={item[1]}
-                style={{ textDecoration: "none", color: "#fff" }}
+    
+    style={{ textDecoration: "none", color: "#fff" }}
               >
                 <ListItem button key={item[0]}>
                   <ListItemText primary={item[0]} />
@@ -182,25 +184,7 @@ export default function PersistentDrawerLeft({
         <div
           style={{ height: "100%", display: "flex", alignItems: "flex-end" }}
         >
-          <div
-            style={{
-              width: "100%",
-              height: "80px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              fontWeight: 500,
-              fontSize: 17,
-              borderTop: "1px solid #44a",
-            }}
-          >
-            University of Batna <br /> M2 RSD <br />
-            2021-2022
-            <a
-              style={{ textDecoration: "none" }}
-              href="http://cs.univ-batna2.dz/"
-            ></a>
-          </div>
+          
         </div>
       </Drawer>
       <main

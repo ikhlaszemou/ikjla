@@ -3,13 +3,13 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyles = makeStyles({
   pageWrap: {
     textAlign: "center",
-    color: "#1a237e",
+    color: "#fff",
   },
   pageHeading: {
     textAlign: "center",
     margin: "10px auto",
     padding: 0,
-    color: "#1a237e",
+    color: "#178ca4",
   },
 
   TableRoot: {
@@ -36,7 +36,7 @@ export const useStyles = makeStyles({
     color: "#1a237e",
   },
   TableHead: {
-    backgroundColor: "#1a237e !important",
+    backgroundColor: "#fff !important",
     color: "#fff !important",
   },
   TableCell: {

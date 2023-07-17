@@ -33,7 +33,7 @@ export default function Home() {
             >
               <img
                 alt="."
-                src="/homeArt.png"
+                src="/photo.png"
                 style={{ width: "90%", height: "auto" }}
               />
             </Grid>
@@ -56,7 +56,7 @@ export default function Home() {
                 <h1 className={classes.pageHeading}>Assign Roles</h1>
                 <Link
                   to="/roleAdmin"
-                  style={{ textDecoration: "none", color: "#fff" }}
+                  style={{ textDecoration: "none", color: "WHITE" }}
                 >
                   <Button
                     className={classes.HomeBtn}
